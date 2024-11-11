@@ -8,21 +8,22 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context="com.hd.CheatActivity">
+    tools:context=".CheatActivity">
 
-      <TextView
-          android:id="@+id/CheatText"
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:textSize="10pt"
-          android:text="Are you sure y want to dp this?" />
+    <TextView
+        android:id="@+id/CheatText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Are you sure y want to do this?"
+        android:textSize="10pt" />
 
     <TextView
         android:id="@+id/CheatAnswerText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="10pt"
-        android:text="TextView" />
+        android:textColor="@color/purple_700"
+        android:text="----------------------" />
 
     <Button
         android:id="@+id/CheatShowButton"
